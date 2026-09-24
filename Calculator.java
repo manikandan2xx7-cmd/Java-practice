@@ -7,6 +7,7 @@ public class Calculator {
         int a=scanner.nextInt();
         System.out.println("enter second number : ");
         int b=scanner.nextInt();
+        System.out.println();
         System.out.println("ADDITION = "+(a+b));
         System.out.println("SUBSTRACTION = "+(a-b));
         System.out.println("MULTIPLICATION = "+(a*b));
