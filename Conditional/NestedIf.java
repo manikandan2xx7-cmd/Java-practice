@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class NestedIf {
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("enter a number : ");
+        int num=scanner.nextInt();
+        if(num>0){
+            System.err.println("POSITIVE");
+        }
+        else if(num==0){
+            System.out.println("ZERO");
+        }
+        else{
+            System.out.println("NEGATIVE");
+        }
+    }
+}
